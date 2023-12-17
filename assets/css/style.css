@@ -2,17 +2,26 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 .main-header{
-
+font-size: 70px;
+font-weight: 900;
+color: #ffffff;
 }
 .secoundary-header{
-
+    font-size: 36px;
+    font-weight: 700;
+    color: #181818;
 }
 .sub-header{
-
+    font-size: 20px;
+    font-weight: 500;
+    color: #181818;
 }
 .paragraph{
-
+    font-size: 16px;
+    font-weight: 400;
+    color: #716c80;
 }
 .section-gaph{
-
+padding-top: 125px;
+padding-bottom: 125px;
 }
