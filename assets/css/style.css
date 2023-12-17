@@ -1,5 +1,14 @@
 body{
     font-family: 'Roboto', sans-serif;
+    
+}
+ul{
+    margin: 0px;
+    padding: 0px;
+}
+p{
+    margin: 0px;
+    padding: 0px;
 }
 .main-header{
 font-size: 70px;
@@ -20,8 +29,25 @@ color: #ffffff;
     font-size: 16px;
     font-weight: 400;
     color: #716c80;
+    
 }
 .section-gaph{
 padding-top: 125px;
 padding-bottom: 125px;
+}
+
+
+/* TOP NAV SECTION */
+.top-nav{
+    background-color: #ffb11f;
+}
+.top-nav-content li {
+    list-style: none !important;
+}
+.top-nav-content li a{
+    text-decoration: none;
+    color: #ffffff;
+    margin-bottom: 0px !important;
+    
+    
 }
