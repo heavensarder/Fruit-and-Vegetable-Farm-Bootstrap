@@ -1,51 +1,125 @@
-body{
-    font-family: 'Roboto', sans-serif;
-    
+body {
+  font-family: "Roboto", sans-serif;
 }
-ul{
-    margin: 0px;
-    padding: 0px;
+ul {
+  margin: 0px;
+  padding: 0px;
 }
-p{
-    margin: 0px;
-    padding: 0px;
+p {
+  margin: 0px;
+  padding: 0px;
 }
-.main-header{
-font-size: 70px;
-font-weight: 900;
-color: #ffffff;
+.main-header {
+  font-size: 70px;
+  font-weight: 900;
+  color: #ffffff;
 }
-.secoundary-header{
-    font-size: 36px;
-    font-weight: 700;
-    color: #181818;
+.secoundary-header {
+  font-size: 36px;
+  font-weight: 700;
+  color: #181818;
 }
-.sub-header{
-    font-size: 20px;
-    font-weight: 500;
-    color: #181818;
+.sub-header {
+  font-size: 20px;
+  font-weight: 500;
+  color: #181818;
 }
-.paragraph{
-    font-size: 16px;
-    font-weight: 400;
-    color: #716c80;
-    
+.paragraph {
+  font-size: 16px;
+  font-weight: 400;
+  color: #716c80;
 }
-.section-gaph{
-padding-top: 125px;
-padding-bottom: 125px;
+.section-gaph {
+  padding-top: 125px;
+  padding-bottom: 125px;
 }
-
 
 /* TOP NAV SECTION */
-.top-nav{
-    background-color: #ffb11f;
+.top-nav {
+  background-color: #ffb11f;
 }
 .top-nav-content li {
-    list-style: none !important;
+  list-style: none !important;
 }
-.top-nav-content li a{
-    text-decoration: none;
-    color: #ffffff;
-   
+.top-nav-content li a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+/* HEADER SECTION */
+/* Navbar Section */
+
+
+
+/* Hero Section */
+.mainheader {
+  position: relative;
+  height: 800px;
+  min-height: 500px;
+  background-image: url(../images/main-banner.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+}
+
+.mainheader::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(
+    0,
+    0,
+    0,
+    0.5
+  ); /* Adjust the alpha value to control the overlay opacity */
+  z-index: 1; /* Adjust the z-index to ensure the overlay is on top of the background image */
+}
+
+.header-content {
+  z-index: 2;
+}
+
+.mainheader h1 {
+  max-width: 645px;
+  margin: 0 auto;
+}
+
+.mainheader p {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.mainheader .btn {
+  border-radius: 2px;
+  font-size: 1rem;
+  padding: 12px 35px;
+  background-color: #ffb11f;
+}
+
+/* Swiper Slider  */
+.swiper-pagination {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+}
+
+/* Customize the bullet styles */
+.swiper-pagination-bullet {
+  width: 25px; /* Set the width of the horizontal line */
+  height: 4px; /* Set the height of the horizontal line */
+  background-color: #fff; /* Set the line color */
+  opacity: 1; /* Set the line opacity */
+  margin: 0 8px;
+  border-radius: 0; /* Adjust the spacing between lines */
+}
+
+/* Customize the active bullet styles */
+.swiper-pagination-bullet-active {
+  background-color: #ff9900; /* Set the active line color */
+  opacity: 1; /* Set the active line opacity */
 }
