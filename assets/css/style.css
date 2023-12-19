@@ -49,12 +49,10 @@ p {
 /* HEADER SECTION */
 /* Navbar Section */
 
-
-
 /* Hero Section */
 .mainheader {
   position: relative;
-  height: 800px;
+  height: 775px;
   min-height: 500px;
   background-image: url(../images/main-banner.jpg);
   background-size: cover;
@@ -94,7 +92,7 @@ p {
   margin: 0 auto;
 }
 
-.mainheader .btn {
+.btn {
   border-radius: 2px;
   font-size: 1rem;
   padding: 12px 35px;
@@ -122,4 +120,258 @@ p {
 .swiper-pagination-bullet-active {
   background-color: #ff9900; /* Set the active line color */
   opacity: 1; /* Set the active line opacity */
+}
+
+/* HEALTH SECTION */
+.health-heading p {
+  max-width: 455px;
+  margin: 0 auto;
+}
+.tomato {
+  background-color: #ffe6e6;
+}
+.berry {
+  background-color: #ece9fc;
+}
+.orange {
+  background-color: #ffe6e6;
+}
+.banana {
+  background-color: #fff7d1;
+}
+.health-Item:hover {
+  background-color: #ffff;
+}
+/* ORGANIC SECTION */
+.organic{
+  background-color: #f8fafe;
+  position: relative;
+}
+.organic .carrot-offset{
+  position: absolute;
+  top: -115px;
+}
+.organic .coliful-offset{
+  position: absolute;
+  top: 117px;
+  right: 540px;
+}
+.organic-content{
+  padding-bottom: 0px !important;
+}
+.organic-heading h3{
+  max-width: 510px;
+}
+.organic-heading p{
+  max-width: 565px;
+}
+.one .organic-icon img{
+  background-color: #ff7200;
+  padding: 10px 15px;
+  border-radius: 2px;
+  
+}
+.two .organic-icon img{
+  background-color: #8c3fc7;
+  padding: 10px 15px;
+  border-radius: 2px;
+  
+}
+.three .organic-icon img{
+  background-color: #f45679;
+  padding: 10px 15px;
+  border-radius: 2px;
+  
+}
+.four .organic-icon img{
+  background-color: #ffb22e;
+  padding: 10px 15px;
+  border-radius: 2px;
+  
+}
+.organic-item-text p{
+  max-width: 270px;
+}
+/* PRODUCT SECTION STRATS HERE */
+.product{
+  position: relative;
+}
+.product .tomato-offset{
+  position: absolute;
+  top: 75px;
+  right: 90px;
+  z-index: -1;
+}
+.product .avocado-offset{
+  position: absolute;
+  bottom: 90px;
+  left: 25px;
+  z-index: -2;
+}
+.product-heading p{
+max-width: 400px;
+margin: 0 auto;
+}
+.product-item{
+  position: relative;
+}
+.product-item h4{
+  font-weight: 900;
+}
+.product-item-img{
+  padding: 0;
+}
+.product-item-img img{
+  padding: 50px 25px;
+  background-color: #f8fafe;
+  width: 100%;
+}
+.product-item-review{
+  font-size: 12px !important;
+}
+.product-item-price h4{
+  font-size: 16px;
+  font-weight: bold;
+}
+.product-item{
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  margin-top: 50px ;
+}
+.product-item:hover{
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px !important;
+}
+.product-item .cart-button {
+  position: absolute;
+  bottom: -30px;
+  left: 78px;
+  opacity: 0; 
+  transition: opacity 1s ease, max-height 1s ease; 
+  max-height: 0; 
+}
+
+.product-item .btn {
+  border-radius: 2px;
+  font-size: 1rem;
+  padding: 10px 35px;
+  background-color: #ffb11f;
+  transition: 1s;
+}
+
+.product-item:hover .cart-button {
+  opacity: 1; 
+  max-height: 100px; 
+  
+}
+/* AMOUNT SECTION STARTS HERE */
+.amount {
+  position: relative;
+  
+  
+  background-image: url(../images/fruit-background.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+}
+
+.amount::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(
+    0,
+    0,
+    0,
+    0.6
+  ); /* Adjust the alpha value to control the overlay opacity */
+   /* Adjust the z-index to ensure the overlay is on top of the background image */
+}
+.amount-content{
+  padding-top: 125px;
+  padding-bottom: 125px;
+}
+.amount-content{
+  position: relative;
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Media Queries */
+
+
+/* Extra small devices (phones) */
+@media only screen and (max-width: 576px) {
+  .amount-Item{
+    border: none !important;
+  }
+}
+
+
+/* Small devices (tablets) */
+@media only screen and (min-width: 577px) and (max-width: 768px) {
+  .amount{
+    border: none !important;
+  }
+}
+
+/* Medium devices (desktops) */
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+ 
+}
+
+/* Large devices (large desktops) */
+@media only screen and (min-width: 993px) and (max-width: 1200px) {
+  
+}
+
+/* Extra large devices (extra-large desktops) */
+@media only screen and (min-width: 1201px) {
+  
 }
