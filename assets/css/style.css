@@ -379,6 +379,34 @@ margin: 0 auto;
   max-width: 300px;
 }
 
+/* CUSTOMER SECTION */
+.customer{
+  background-color: #f8fafe;
+}
+.testimonial{
+  padding-top: 120px;
+  padding-top: 120px;
+}
+.testimonial h4{
+  max-width: 545px;
+}
+.testimonial-comment p{
+  max-width: 570px;
+}
+/* Swiper Slider */
+.previous-button img,
+.next-button img{
+padding: 5px 10px;
+background-color: #ffb11f;
+}
+.previous-button img:hover,
+.next-button img:hover{
+  background-color: #ec9c07;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+}
+
+
 
 
 
