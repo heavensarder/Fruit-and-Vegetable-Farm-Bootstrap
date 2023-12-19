@@ -299,6 +299,9 @@ margin: 0 auto;
  
 }
 /* GALLARY SECTION */
+.gallary-content{
+  padding-bottom: 0px;
+}
 .gallary-heading p{
   max-width: 350px;
   margin: 0 auto;
@@ -340,8 +343,20 @@ margin: 0 auto;
   opacity: 1; /* Show the overlay on hover */
 }
 
-
-
+/* BANNER SECTION STARTS HERE */
+.banner-content{
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.banner-content .orange{
+  background-color: #ffb11f;
+}
+.banner-content .strawberry{
+  background-color: #f54830;
+}
+.banner-text h4{
+  max-width: 300px;
+}
 
 
 
