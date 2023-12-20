@@ -85,7 +85,13 @@ list-style: none;
 text-decoration: none;
 color: #181818;
 font-family: "Roboto", sans-serif;
+font-size: 20px;
 }
+
+.nav-bottom-content .social-icon .fab{
+  font-size: 30px;
+}
+
 .nav-icon .fa-solid {
   border: 1px solid #ffeece;
   border-radius: 50%;
