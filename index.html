@@ -4,7 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <title>Fruit & Vegetable Farm</title>
     <!-- Font link -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -31,22 +32,34 @@
 <body>
 
     <!-- Header area start here -->
-    <div class="top-nav py-2">
+    <!-- TOPBAR SECTION STARTS HERE -->
+   
+    <div class="top-nav py-2 d-none d-lg-block">
         <div class="container">
             <div class="top-nav-content d-flex align-items-center justify-content-between">
-                <ul class="email  text-light d-flex gap-4">
-                    <li><i class="fa-regular fa-envelope me-2"></i> <a href="#">Agriculfarm@gmail.com</a></li>
-                    <li><i class="fa-solid fa-phone-volume me-2"></i><a href="#">+88130-589-745-6987</a></li>
-                    <li><i class="fa-regular fa-clock me-2"></i><a href="#">Mon - Fri 09:00 - 18:00</a></li>
+                <ul class=" text-light d-flex gap-4">
+                    <li><i class="fa-regular fa-envelope me-2"></i> <a  href="#">Agriculfarm@gmail.com</a></li>
+                    <li><i class="fa-solid fa-phone-volume me-2"></i><a  href="#">+88130-589-745-6987</a></li>
+                    <li><i class="fa-regular fa-clock me-2"></i><a  href="#">Mon - Fri 09:00 - 18:00</a></li>
                 </ul>
                 
                 <ul class="social-icon  text-light ">
                     <li>
-                        <i class="fa-brands fa-twitter me-2"></i>
-                        <i class="fa-brands fa-behance me-2"></i>
-                        <i class="fa-brands fa-instagram me-2"></i>
-                        <i class="fa-brands fa-vimeo me-2"></i>
-                        <i class="fa-brands fa-linkedin-in"></i>
+                      <a href="https://twitter.com" target="_blank" class="social-link me-2">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="https://www.behance.net" target="_blank" class="social-link me-2">
+                        <i class="fab fa-behance"></i>
+                    </a>
+                    <a href="https://www.instagram.com" target="_blank" class="social-link me-2">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="https://vimeo.com" target="_blank" class="social-link me-2">
+                        <i class="fab fa-vimeo"></i>
+                    </a>
+                    <a href="https://www.linkedin.com" target="_blank" class="social-link">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
                         
                     </li>
                 </ul>
@@ -55,19 +68,973 @@
         </div>
     </div>
 
+    <!-- NAVBAR SECTION  -->
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand d-md-none" href="#">
+          <div class="main-logo d-flex">
+            <div class="main-logo-img">
+              <img class="img-fluid" src="./assets/images/logo.png" alt="Logo">
+            </div>
+            <div class="logo-text ms-2 text-dark fw-bold">
+              <h4>Agricul Farm</h4>
+            </div>
+            </div>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse " id="navbarNav">
+          <ul class="navbar-nav mx-auto fw-bold">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Page</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Gallary</a>
+            </li>
+            <a class="navbar-brand d-none d-md-block" href="#">
+              <div class="main-logo d-flex">
+                <div class="main-logo-img">
+                  <img class="img-fluid" src="./assets/images/logo.png" alt="Logo">
+                </div>
+                <div class="logo-text ms-2 text-dark fw-bold">
+                  <h4>Agricul Farm</h4>
+                </div>
+                </div>
+            </a>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Shop</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+            <li class="nav-item">
+              <div class="nav-icon d-flex gap-3 ">
+                <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
+                <a href=""><i class="fa-solid fa-magnifying-glass"></i></a>
+              </div>
+            </li>
+          </ul>
+          
+          <div class="nav-bottom-content d-sm-block d-lg-none text-center py-3">
+            <ul class=" text-dark fw-bold ">
+                <li><i class="fa-regular fa-envelope me-2 py-2"></i> <a  href="#">Agriculfarm@gmail.com</a></li>
+                <li><i class="fa-solid fa-phone-volume me-2 py-2"></i><a  href="#">+88130-589-745-6987</a></li>
+                <li><i class="fa-regular fa-clock me-2 py-2"></i><a  href="#">Mon - Fri 09:00 - 18:00</a></li>
+            </ul>
+            
+            <ul class="social-icon  text-dark pt-2 ">
+                <li>
+                  <a href="https://twitter.com" target="_blank" class="social-link me-2">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="https://www.behance.net" target="_blank" class="social-link me-2">
+                    <i class="fab fa-behance"></i>
+                </a>
+                <a href="https://www.instagram.com" target="_blank" class="social-link me-2">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="https://vimeo.com" target="_blank" class="social-link me-2">
+                    <i class="fab fa-vimeo"></i>
+                </a>
+                <a href="https://www.linkedin.com" target="_blank" class="social-link">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+                    
+                </li>
+            </ul>
+        </div>
+
+        </div>
+      </div>
+    </nav>
+   
+
+
+    <!-- HERO SECTION STARTS HERE -->
+    <header class="mainheader">
+        <div class="swiper heroSwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="container header-content text-center">
+                <h4 class="secoundary-header text-light"> Agricul Farm</h4>
+              <h1 class="text-light main-header mt-3">
+                Fresh Organic Fruits 
+    For Your Health.
+              </h1>
+              <p class="lead fw-normal text-light mt-3">
+                Dynamically supply web-enabled portals for high standards income 
+    Completely productivate optimal sources strategic.
+              </p>
+              <a href="#" class="btn btn-lg btn-warning text-light mt-4 fw-bold">Shop Now</a>
+            </div>
+        </div>
+              <div class="swiper-slide">
+                <div class="container header-content text-center">
+                <h4 class="secoundary-header text-light"> Agricul Farm</h4>
+              <h1 class="text-light main-header mt-3">
+                Fresh Organic Fruits 
+    For Your Health.
+              </h1>
+              <p class="lead fw-normal text-light mt-3">
+                Dynamically supply web-enabled portals for high standards income 
+    Completely productivate optimal sources strategic.
+              </p>
+              <a href="#" class="btn btn-lg btn-warning text-light mt-4 fw-bold">Shop Now</a>
+            </div>
+        </div>
+              <div class="swiper-slide">
+                <div class="container header-content text-center">
+                <h4 class="secoundary-header text-light"> Agricul Farm</h4>
+              <h1 class="text-light main-header mt-3">
+                Fresh Organic Fruits 
+    For Your Health.
+              </h1>
+              <p class="lead fw-normal text-light mt-3">
+                Dynamically supply web-enabled portals for high standards income 
+    Completely productivate optimal sources strategic.
+              </p>
+              <a href="#" class="btn btn-lg btn-warning text-light mt-4 fw-bold">Shop Now</a>
+            </div>
+        </div>
+             
+            </div>
+            
+            
+          </div>
+          <div class="swiper-pagination"></div>
+      </header>
+
     <!-- Header area end here -->
 
     <main>
         <!-- Section area end here -->
+      <section class="health">
+        <div class="container">
+          <div class="health-content section-gaph ">
+            <div class="health-heading text-center">
+              <h3 class="secoundary-header">Fruits & Vegetable Keep Your Health</h3>
+              <p class="paragraph">Conveniently customize proactive  services leveraged interfaces 
+                without Globally </p>
+            </div>
+            <div class="row pt-5 g-4">
+              <div class="col-lg-3">
+                <div class="health-Item tomato text-center">
+                  <img src="./assets/images/tomato.png" class="pt-5" alt="tomato">
+                  <h4 class="sub-header pt-4">Tomato</h4>
+                  <p class="paragraph px-4 pb-5">Continually aggregate friction
+                    web interfaces thout </p>
+                </div>
+              </div>
+              <div class="col-lg-3">
+                <div class="health-Item berry text-center">
+                  <img src="./assets/images/berry.png" class="pt-5" alt="berry">
+                  <h4 class="sub-header pt-4">Blueberry</h4>
+                  <p class="paragraph px-4 pb-5">Continually aggregate friction
+                    web interfaces thout </p>
+                </div>
+              </div>
+              <div class="col-lg-3">
+                <div class="health-Item orange text-center">
+                  <img src="./assets/images/orange.png" class="pt-5" alt="orange">
+                  <h4 class="sub-header pt-4">Orange</h4>
+                  <p class="paragraph px-4 pb-5">Continually aggregate friction
+                    web interfaces thout </p>
+                </div>
+              </div>
+              <div class="col-lg-3">
+                <div class="health-Item banana text-center">
+                  <img src="./assets/images/banana.png" class="pt-5" alt="Banana">
+                  <h4 class="sub-header pt-4">Banana</h4>
+                  <p class="paragraph px-4 pb-5">Continually aggregate friction
+                    web interfaces thout </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+      </section>
+      <!-- ORGANIC SECTION START HERE -->
+      <section class="organic">
+        <div class="carrot-offset">
+          <img src="./assets/images/carrot-offset.png" alt="Carrot">
+        </div>
+        <div class="coliful-offset d-none d-lg-block">
+          <img src="./assets/images/coliful-offset.png" alt="Coliful">
+        </div>
+        <div class="container">
+          <div class="organic-content section-gaph">
+            
+            
+            <div class="row">
+              <div class="col-lg-8">
+                  <div class="organic-heading text-start">
+                    <h3 class="secoundary-header">We Are Best Organic Fruits And 
+                      Vegetable Farm.</h3>
+                      <p class="paragraph pt-2">Conveniently customize proactive web services for leveraged interfaces without 
+                        globally continually aggregate frictionlent without globally wellies richard.  </p>
+                  </div>
+                  <div class="row pt-5 g-5">
+                    <div class="col-lg-6">
+                      <div class="organic-item one d-flex ">
+                        <div class="organic-icon  ">
+                          <img src="./assets/images/icon1.png" alt="Icon">
+                        </div>
+                        <div class="organic-item-text ps-3">
+                          <h4 class="sub-header">Organic and non-gmo</h4>
+                          <p class="paragraph">Continually aggregate frictionle interc
+                            without globally wellies richard. </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-6">
+                      <div class="organic-item two d-flex ">
+                        <div class="organic-icon  ">
+                          <img src="./assets/images/icon2.png" alt="Icon">
+                        </div>
+                        <div class="organic-item-text ps-3">
+                          <h4 class="sub-header">Best Organic products</h4>
+                          <p class="paragraph">Continually aggregate frictionle interc
+                            without globally wellies richard. </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-6">
+                      <div class="organic-item three d-flex ">
+                        <div class="organic-icon  ">
+                          <img src="./assets/images/icon3.png" alt="Icon">
+                        </div>
+                        <div class="organic-item-text ps-3">
+                          <h4 class="sub-header">Healthy and nutritious</h4>
+                          <p class="paragraph">Continually aggregate frictionle interc
+                            without globally wellies richard. </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-6">
+                      <div class="organic-item four d-flex ">
+                        <div class="organic-icon  ">
+                          <img src="./assets/images/icon4.png" alt="Icon">
+                        </div>
+                        <div class="organic-item-text ps-3">
+                          <h4 class="sub-header">500 acres of pasture</h4>
+                          <p class="paragraph">Continually aggregate frictionle interc
+                            without globally wellies richard. </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+              <div class="col-lg-2">
+                <div class="organic-big-img d-none d-lg-block ">
+                  <img src="./assets/images/vegetable-men.png" alt="">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- PRODUCT SECTION STRATS HERE -->
+      <section class="product">
+        <div class="tomato-offset d-none d-lg-block ">
+          <img src="./assets/images/tomato-offset.png" alt="Tomato">
+        </div>
+        <div class="avocado-offset d-none d-lg-block">
+          <img src="./assets/images/avocado-offset.png" alt="Avocado">
+        </div>
+        <div class="container">
+          <div class="product-content section-gaph">
+            <div class="product-heading text-center">
+              <h3 class="secoundary-header">Fruits & Vegetable Products</h3>
+              <p class="paragraph">Conveniently customize proactive  services leveraged
+                interfaces without Globally</p>
+            </div>
+            <div class="row g-4">
+              <div class="col-lg-3 col-sm-6">
+                <div class="product-item text-center">
+                  <div class="product-item-img ">
+                    <img src="./assets/images/apple-product1.png" alt="Green Apple">
+                  </div>
+                  <h4 class="product-item-title sub-header  pt-4">Green Apple</h4>
+                  <div class="product-item-review text-warning">
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                  </div>
+                  <div class="product-item-price  pt-2 pb-4">
+                    <h4>$39.99</h4>
+                  </div>
+                  <div class="cart-button">
+                    <a href="#" class="btn btn-lg btn-warning text-light  fw-bold">Add to Cart</a>
+                  </div>
+                  
 
+                  </div>
+                </div>
+              <div class="col-lg-3 col-sm-6">
+                <div class="product-item text-center">
+                  <div class="product-item-img ">
+                    <img src="./assets/images/tomato-product2.png" alt="Tomato">
+                  </div>
+                  <h4 class="product-item-title sub-header  pt-4">Organic Tomato</h4>
+                  <div class="product-item-review text-warning">
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                  </div>
+                  <div class="product-item-price  pt-2 pb-4">
+                    <h4>$59.99</h4>
+                  </div>
+                  <div class="cart-button">
+                    <a href="#" class="btn btn-lg btn-warning text-light  fw-bold">Add to Cart</a>
+                  </div>
+                  
 
+                  </div>
+                </div>
+              <div class="col-lg-3 col-sm-6">
+                <div class="product-item text-center">
+                  <div class="product-item-img ">
+                    <img src="./assets/images/orange-product3.png" alt="Ornage">
+                  </div>
+                  <h4 class="product-item-title sub-header  pt-4">Orange</h4>
+                  <div class="product-item-review text-warning">
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                  </div>
+                  <div class="product-item-price  pt-2 pb-4">
+                    <h4>$69.99</h4>
+                  </div>
+                  <div class="cart-button">
+                    <a href="#" class="btn btn-lg btn-warning text-light  fw-bold">Add to Cart</a>
+                  </div>
+                  
+
+                  </div>
+                </div>
+              <div class="col-lg-3 col-sm-6">
+                <div class="product-item text-center">
+                  <div class="product-item-img ">
+                    <img src="./assets/images/strawberry-product4.png" alt="Green Apple">
+                  </div>
+                  <h4 class="product-item-title sub-header  pt-4">Strawberry</h4>
+                  <div class="product-item-review text-warning">
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                  </div>
+                  <div class="product-item-price  pt-2 pb-4">
+                    <h4>$79.99</h4>
+                  </div>
+                  <div class="cart-button">
+                    <a href="#" class="btn btn-lg btn-warning text-light  fw-bold">Add to Cart</a>
+                  </div>
+                  
+
+                  </div>
+                </div>
+              <div class="col-lg-3 col-sm-6">
+                <div class="product-item text-center">
+                  <div class="product-item-img ">
+                    <img src="./assets/images/berry-product5.png" alt="Berry">
+                  </div>
+                  <h4 class="product-item-title sub-header  pt-4">Blueberry</h4>
+                  <div class="product-item-review text-warning">
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i> col-sm-6
+                    <i class="fa-regular fa-star"></i>
+                  </div>
+                  <div class="product-item-price  pt-2 pb-4">
+                    <h4>$39.99</h4>
+                  </div>
+                  <div class="cart-button">
+                    <a href="#" class="btn btn-lg btn-warning text-light  fw-bold">Add to Cart</a>
+                  </div>
+                  
+
+                  </div>
+                </div>
+              <div class="col-lg-3 col-sm-6">
+                <div class="product-item text-center">
+                  <div class="product-item-img ">
+                    <img src="./assets/images/lettuce-product6.png" alt="Lettuce">
+                  </div>
+                  <h4 class="product-item-title sub-header  pt-4">Organic Lettuce</h4>
+                  <div class="product-item-review text-warning">
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                  </div>
+                  <div class="product-item-price  pt-2 pb-4">
+                    <h4>$59.99</h4>
+                  </div>
+                  <div class="cart-button">
+                    <a href="#" class="btn btn-lg btn-warning text-light  fw-bold">Add to Cart</a>
+                  </div>
+                  
+
+                  </div>
+                </div>
+              <div class="col-lg-3 col-sm-6">
+                <div class="product-item text-center">
+                  <div class="product-item-img ">
+                    <img src="./assets/images/carrot-product7.png" alt="Carrot">
+                  </div>
+                  <h4 class="product-item-title sub-header  pt-4">Carrot</h4>
+                  <div class="product-item-review text-warning">
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                  </div>
+                  <div class="product-item-price  pt-2 pb-4">
+                    <h4>$69.99</h4>
+                  </div>
+                  <div class="cart-button">
+                    <a href="#" class="btn btn-lg btn-warning text-light  fw-bold">Add to Cart</a>
+                  </div>
+                  
+
+                  </div>
+                </div>
+              <div class="col-lg-3 col-sm-6">
+                <div class="product-item text-center">
+                  <div class="product-item-img ">
+                    <img src="./assets/images/sprouts-product8.png" alt="Sprouts">
+                  </div>
+                  <h4 class="product-item-title sub-header  pt-4">Brussels Sprouts</h4>
+                  <div class="product-item-review text-warning">
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                  </div>
+                  <div class="product-item-price  pt-2 pb-4">
+                    <h4>$79.99</h4>
+                  </div>
+                  <div class="cart-button">
+                    <a href="#" class="btn btn-lg btn-warning text-light  fw-bold">Add to Cart</a>
+                  </div>
+                  
+
+                  </div>
+                </div>
+                <div class="view-product-btn text-center pt-5">
+                  <a href="#" class="btn btn-lg btn-warning text-light  fw-bold">View Product</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- AMOUNT SECTION STARTS HERE -->
+      <section class="amount">
+        <div class="container">
+          <div class="amount-content">
+            <div class="row g-4">
+              <div class="col-lg-3">
+                <div class="amount-Item text-center border-end">
+                  <img src="./assets/images/tomato.png"  alt="tomato">
+                  <h4 class="secoundary-header pt-4 text-light">5,050</h4>
+                  <p class="sub-header px-4  text-light">Organic Tomato</p>
+                </div>
+              </div>
+              <div class="col-lg-3">
+                <div class="amount-Item text-center border-end">
+                  <img src="./assets/images/berry.png"  alt="Berry">
+                  <h4 class="secoundary-header pt-4 text-light">6,200</h4>
+                  <p class="sub-header px-4  text-light">Organic Blueberry</p>
+                </div>
+              </div>
+              <div class="col-lg-3">
+                <div class="amount-Item text-center border-end">
+                  <img src="./assets/images/orange.png"  alt="Orange">
+                  <h4 class="secoundary-header pt-4 text-light">8,100</h4>
+                  <p class="sub-header px-4  text-light">Organic Orange</p>
+                </div>
+              </div>
+              <div class="col-lg-3">
+                <div class="amount-Item text-center ">
+                  <img src="./assets/images/carrot.png"  alt="Carrot">
+                  <h4 class="secoundary-header pt-4 text-light">6,300</h4>
+                  <p class="sub-header px-4  text-light">Organic Carrot</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- GALLARY SECTION STARTS HERE -->
+      <section class="gallary">
+        <div class="container-fluid ">
+          <div class="gallary-content section-gaph">
+            <div class="gallary-heading text-center">
+              <h3 class="secoundary-header">Fruits & Vegetable Farm Gallery</h3>
+              <p class="paragraph">Conveniently customize proactives into everaged
+                interfaces without Globally  </p>
+            </div>
+            <div class="row g-4 pt-5">
+              <div class="col-lg-3">
+                <div class="gallary-img-item">
+                  <img class="gallary-img" src="./assets/images/apple-garden.jpg" alt="Apple Garden">
+                  <div class="overlay">
+                    <p class="text">Apple</p>
+                  </div>
+                </div>
+                
+              </div>
+              <div class="col-lg-3 ">
+                <div class="gallary-img-item">
+                  <img class="gallary-img" src="./assets/images/carrot-garden.jpg" alt="Carrot">
+                  <div class="overlay">
+                    <p class="text">Carrot</p>
+                  </div>
+                </div>
+                
+              </div>
+              <div class="col-lg-3 ">
+                <div class="gallary-img-item">
+                  <img class="gallary-img" src="./assets/images/tomato-garden.jpg" alt="Tomato">
+                  <div class="overlay">
+                    <p class="text">Tomato</p>
+                  </div>
+                </div>
+                
+              </div>
+              <div class="col-lg-3 ">
+                <div class="gallary-img-item">
+                  <img class="gallary-img" src="./assets/images/strawberry-garden.jpg" alt="Strawberry">
+                  <div class="overlay">
+                    <p class="text">Strawberry</p>
+                  </div>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+          
+        </div>
+      </section>
+      <!-- BANNER SECTION STARTS HERE -->
+      <section class="banner">
+        <div class="container">
+          <div class="banner-content">
+            <div class="row g-4">
+              <div class="col-lg-6">
+                <div class="banner-card orange px-2 py-4  d-flex ">
+                  <div class="banner-img">
+                    <img src="./assets/images/orange-banner.png" alt="Orange">
+                  </div>
+                  <div class=" ms-4 banner-text">
+                    <p class="paragraph text-light">Orange</p>
+                    <h4 class="secoundary-header fw-light text-light">100% Natural Fruit
+                      Juice <span class="fw-bold">30% Off</span> </h4>
+                      <a href="#" class="btn btn-lg btn-warning text-warning bg-light fw-bold mt-3">View Product</a>
+
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div class="banner-card strawberry px-2 py-4  d-flex">
+                  <div class="banner-img">
+                    <img src="./assets/images/strawberry-banner.png" alt="Strawberry">
+                  </div>
+                  <div class=" ms-4 banner-text">
+                    <p class="paragraph text-light">Strawberry</p>
+                    <h4 class="secoundary-header fw-light text-light">100% Natural Fruit
+                      Juice <span class="fw-bold">70% Off</span> </h4>
+                      <a href="#" class="btn btn-lg btn-warning text-warning bg-light fw-bold mt-3">View Product</a>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- CUSTOMER SECTION STARTS HERE -->
+      <section class="customer">
+        <div class="container">
+          <div class="customer-content">
+            <div class="row">
+              <div class="col-lg-6">
+                <div class="testimonial text-start">
+                  <h4 class="secoundary-header">20k+ Customers love Our Fruits &
+                  
+                  Vegetable Farm</h4>
+                  <div class="swiper testimonialSwiper">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide">
+                        <div class="testimonial-content">
+                          <div class="testimonial-member d-flex  align-items-center mt-5">
+                            <div class="testimonial-img">
+                              <img src="./assets/images/testimonial-member1.png" alt="">
+                            </div>
+                            <div class="testimonial-text ms-3">
+                              <h4 class="sub-header">Sahjahan Sagor</h4>
+                              <p class="paragraph">Ui/Ux Designer</p>
+                            </div>
+                          </div>
+                          <div class="testimonial-comment paragraph pt-2">
+                            <p>Conveniently iterate technically sound internal sources corporate pisotentialities 
+                              uniquely maximize business leadership skills authoritatively plagiarizotal linkage
+                              before cost effective leadership skills proactively innovate distributede practices 
+                              through seamless deliverables granular exceptional.</p>
+                          </div>
+                        </div>
+
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="testimonial-content">
+                          <div class="testimonial-member d-flex  align-items-center mt-5">
+                            <div class="testimonial-img">
+                              <img src="./assets/images/testimonial-member1.png" alt="">
+                            </div>
+                            <div class="testimonial-text ms-3">
+                              <h4 class="sub-header">Sahjahan Sagor</h4>
+                              <p class="paragraph">Ui/Ux Designer</p>
+                            </div>
+                          </div>
+                          <div class="testimonial-comment paragraph pt-2">
+                            <p>Conveniently iterate technically sound internal sources corporate pisotentialities 
+                              uniquely maximize business leadership skills authoritatively plagiarizotal linkage
+                              before cost effective leadership skills proactively innovate distributede practices 
+                              through seamless deliverables granular exceptional.</p>
+                          </div>
+                        </div>
+
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="testimonial-content">
+                          <div class="testimonial-member d-flex  align-items-center mt-5">
+                            <div class="testimonial-img">
+                              <img src="./assets/images/testimonial-member1.png" alt="">
+                            </div>
+                            <div class="testimonial-text ms-3">
+                              <h4 class="sub-header">Sahjahan Sagor</h4>
+                              <p class="paragraph">Ui/Ux Designer</p>
+                            </div>
+                          </div>
+                          <div class="testimonial-comment paragraph pt-2">
+                            <p>Conveniently iterate technically sound internal sources corporate pisotentialities 
+                              uniquely maximize business leadership skills authoritatively plagiarizotal linkage
+                              before cost effective leadership skills proactively innovate distributede practices 
+                              through seamless deliverables granular exceptional.</p>
+                          </div>
+                          
+                        </div>
+
+                      </div>
+                     
+                    
+                    
+                  </div>
+                  <div class="control-button d-flex py-3">
+                    <div class="previous-button ">
+                      <img  src="./assets/images/prev.png" alt="Previous Button">
+                    </div>
+                    <div class=" ms-2 next-button">
+                      <img  src="./assets/images/next.png" alt="Next Button">
+                    </div>
+                  </div>
+                  
+                </div>
+                
+                  
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div class="customer-image pt-3 d-none d-lg-block">
+                  <img src="./assets/images/vegetable-men.png" alt="Vegetable Man">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- BLOG SECTION STARTS HERE -->
+    <section class="blog">
+      <div class="container">
+        <div class="blog-content">
+          <div class="blog-heading text-center pb-5">
+            <h3 class="text-dark fw-bold">Agricul Farm Recent Blog </h3>
+            <p class="text-secondary fw-normal">
+              Conveniently customize proactives into everaged
+interfaces without Globally  
+            </p>
+          </div>
+          <div class="row g-4">
+            <div class="col-lg-4">
+              <div class="blog-card">
+                <div class="card text-center" >
+                  <img src="./assets/images/blog-pic1.jpg" class="card-img-top" alt="Blog Picture">
+                  <div class="card-img-date py-2 px-3 text-light ">
+                    <p class="date fw-bold m-0   ">24</p>
+                    <p class="month m-0 p-0 ">Aug</p>
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title p-2">Tips For Ripening Your Fruits &
+                      Vegetable</h5>
+                    <div class="card-text text-secondary">
+                      <span class="date p-1">November 26, 2019</span>|
+                      <span class="user p-1">Admin</span>|
+                      <span class="comments p-1">4 comments</span>
+                    </div>
+                    <div class="read-more py-2 fw-bold">
+                      <a href="#" class="card-link ">Read More</a>
+                    </div>
+                  </div>
+                  
+                </div>
+              </div>
+              </div>
+            <div class="col-lg-4">
+              <div class="blog-card">
+                <div class="card text-center" >
+                  <img src="./assets/images/blog-pic2.jpg" class="card-img-top" alt="Blog Picture">
+                  <div class="card-img-date py-2 px-3 text-light ">
+                    <p class="date fw-bold m-0   ">24</p>
+                    <p class="month m-0 p-0 ">Aug</p>
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title p-2">Benefits of a Raw Food for 
+                      your Health </h5>
+                    <div class="card-text text-secondary">
+                      <span class="date p-1">November 26, 2019</span>|
+                      <span class="user p-1">Admin</span>|
+                      <span class="comments p-1">4 comments</span>
+                    </div>
+                    <div class="read-more py-2 fw-bold">
+                      <a href="#" class="card-link ">Read More</a>
+                    </div>
+                  </div>
+                  
+                </div>
+              </div>
+              </div>
+            <div class="col-lg-4">
+              <div class="blog-card">
+                <div class="card text-center" >
+                  <img src="./assets/images/blog-pic3.jpg" class="card-img-top" alt="Blog Picture">
+                  <div class="card-img-date py-2 px-3 text-light ">
+                    <p class="date fw-bold m-0   ">24</p>
+                    <p class="month m-0 p-0 ">Aug</p>
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title p-2">Superfoods You Should be Eating 
+                      For Health</h5>
+                    <div class="card-text text-secondary">
+                      <span class="date p-1">November 26, 2019</span>|
+                      <span class="user p-1">Admin</span>|
+                      <span class="comments p-1">4 comments</span>
+                    </div>
+                    <div class="read-more py-2 fw-bold">
+                      <a href="#" class="card-link ">Read More</a>
+                    </div>
+                  </div>
+                  
+                </div>
+              </div>
+              </div>
+            </div>
+            
+            
+          </div>
+        </div>
+      
+    </section>
+    <!-- LOGO SECTION STARTS HERE -->
+    <section class="logo">
+      <div class="container">
+        <div class="logo-section text-center ">
+          <div class="swiper mySwiperLogo">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="logo-pic">
+                  <img class="img-fluid" src="./assets/images/logo1.png" alt="logo pic">
+                 </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="logo-pic">
+                  <img class="img-fluid" src="./assets/images/logo2.png" alt="logo pic">
+                 </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="logo-pic">
+                  <img class="img-fluid" src="./assets/images/logo3.png" alt="logo pic">
+                 </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="logo-pic">
+                  <img class="img-fluid" src="./assets/images/logo4.png" alt="logo pic">
+                 </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="logo-pic">
+                  <img class="img-fluid" src="./assets/images/logo5.png" alt="logo pic">
+                 </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="logo-pic">
+                  <img class="img-fluid" src="./assets/images/logo1.png" alt="logo pic">
+                 </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="logo-pic">
+                  <img class="img-fluid" src="./assets/images/logo2.png" alt="logo pic">
+                 </div>
+              </div>
+              <div class="swiper-slide"><div class="logo-pic">
+                <img class="img-fluid" src="./assets/images/logo3.png" alt="logo pic">
+               </div></div>
+              <div class="swiper-slide">
+                <div class="logo-pic">
+                  <img class="img-fluid" src="./assets/images/logo4.png" alt="logo pic">
+                 </div>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </section>
 
         
         <!-- Section area end here -->
     </main>
 
     <!-- Footer area start here -->
+<!-- FOOTER SECTION STARTS HERE -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-content">
+      <div class="row g-4 pb-4">
+        <div class="col-lg-3">
+          <div class="main-logo d-flex">
+          <div class="main-logo-img">
+            <img class="img-fluid" src="./assets/images/logo.png" alt="Logo">
+          </div>
+          <div class="logo-text ms-2 text-light fw-bold">
+            <h4>Agricul Farm</h4>
+          </div>
+          </div>
+          <div class="footer-description  py-2 ">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam rerum placeat tempore culpa voluptates sit doloremque aperiam? Placeat, omnis nesciunt. 
+                </p>
+                <p>aggregate frictionle without aggregate 
+                  Conveniently customizec efrictionle.</p>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="footer-address text-start">
+            <div class="footer-address-text text-light pt-3 pb-4">
+              <h4>Keep in Touch</h4>
+              <div class="address py-3 d-flex align-items-center">
+                <i class="fa-solid fa-location-dot me-2"></i>
+                <p>Sector # 48,123 Vokte Street, <br> 
+                  Melborn city, Australia</p>
+              </div>
+              <div class="email py-2 d-flex align-items-center ">
+                <i class="fa-solid fa-phone-volume me-2"></i>
+                <p>+88978-658-125, 0078-98-954,
+                  <br>+1655-456-523</p>
+              </div>
+              <div class="phone-number py-2 d-flex align-items-center ">
+                <i class="fa-solid fa-envelope me-2"></i>
+                <p>agriculfarm@gmail.com</p>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="footer-section text-start">
+            <div class="footer-product-text text-light pt-3 pb-4">
+              <h4>AgriculFarm Product</h4>
+              <div class="footer-product pt-4">
+                <div class="product1 d-flex">
+                  <div class="product-img me-3">
+                    <img src="./assets/images/product1.png" alt="">
+                  </div>
+                  <div class="product-details">
+                    <h4>Fruits &Vegetable</h4>
+                    <h5>$24.99</h5>
+                  </div>
 
+                </div>
+                <div class="product2 d-flex pt-4 ">
+                  <div class="product-img me-3">
+                    <img src="./assets/images/product2.png" alt="">
+                  </div>
+                  <div class="product-details">
+                    <h4>Natural Honey</h4>
+                    <h5>$25.99</h5>
+                  </div>
+
+                </div>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="footer-insta text-start">
+            <div class="footer-insta-text text-light pt-3 pb-4">
+              <h4>Instagram Feed</h4>
+              <div class="row g-2 pt-4">
+                <div class="col-4">
+                  <img class="w-100" src="./assets/images/gallary-pic1.png" alt="Gallary Picture">
+                </div>
+                <div class="col-4">
+                  <img class="w-100" src="./assets/images/gallary-pic2.png" alt="Gallary Picture">
+                </div>
+                <div class="col-4">
+                  <img class="w-100" src="./assets/images/gallary-pic3.png" alt="Gallary Picture">
+                </div>
+                <div class="col-4">
+                  <img class="w-100" src="./assets/images/gallary-pic4.png" alt="Gallary Picture">
+                </div>
+                <div class="col-4">
+                  <img class="w-100" src="./assets/images/gallary-pic5.png" alt="Gallary Picture">
+                </div>
+                <div class="col-4">
+                  <img class="w-100" src="./assets/images/gallary-pic6.png" alt="Gallary Picture">
+                </div>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+      <div></div>
+      <div class="copy-section fw-normal text-light text-center py-4 border-top">
+        <p>© 2023 Fruit & Vegetable Farm. All Rights Reserved By Heaven Sarder</p>
+      </div>
+    </div>
+  </div>
+</footer>
     <!-- Footer area end here -->
 
     <!-- Jquery 3. 7. 1 Min Js -->
