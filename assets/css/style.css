@@ -80,6 +80,9 @@ p {
 .nav-item a{
   color: #181818 !important;
 }
+.nav-item:hover a{
+  color: #ffb11f !important;
+}
 .nav-bottom-content a{
 list-style: none;
 text-decoration: none;
